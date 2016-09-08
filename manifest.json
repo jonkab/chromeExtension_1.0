@@ -1,0 +1,24 @@
+{
+"name" :"Chrome Extension Test",
+"manifest_version": 2,
+"version" :"1.0",
+ "permissions": [
+    "activeTab"
+  ],
+"description" :"Creating an Extension",
+"permissions": ["http://*.google.com/", "https://*.google.com/"],
+"browser_action" :
+	{
+		"default_title": "",
+		"default_icon" : "john.png",
+		"default_popup" :"content.html"
+	},
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "css": ["styles.css"],
+      "js": ["jquery_3.1.0_min.js"],
+      "js": ["scripts.js"]
+    }
+  ]
+}

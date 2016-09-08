@@ -1,0 +1,10 @@
+{
+  "name": "chromeExtension_1.0",
+  "private": true,
+  "dependencies": {
+    "skeleton": "~2.0.4",
+    "lesshat": "~3.0.2",
+    "matchMedia": "~0.2.0",
+    "normalize-less": "*"
+  }
+}
